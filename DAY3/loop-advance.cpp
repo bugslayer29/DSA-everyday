@@ -151,27 +151,27 @@ else
 
 
 // fibonacci number ---------------------------------------------------------------------------------------------------------
-//  int i , n, num1=0, num2=1, nxtTerm;
+//  int i , n, last=0, prev=1, curr;
 
 //  cout << "Enter Fibonacci Size\n";
 //  cin >> n;
 
 //  for(i=1; i<=n; ++i)
 //  {
-//     cout << num1 << " ";
-//     nxtTerm = num1 + num2;
-//     num1 = num2;
-//     num2 = nxtTerm;
+//     cout << curr << " ";
+//     curr = prev + curr;
+//      last = prev;
+//     prev = curr;
 
-
-int n, curr, prev=1, last=0;
+int n, i, curr, prev=1, last=0;
+cout << "enter the value of n: \n";
 cin >> n;
-for(int i = 3; i<=n; i++)
+for(i=1; i<=n; i++)
 {
     curr = prev + last;
     last = prev;
     prev = curr;
 }
-cout << curr;
-  }
+cout << curr << endl;
 
+} 
