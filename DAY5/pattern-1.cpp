@@ -83,18 +83,36 @@ int main()
 //      }
 //      cout << endl;
 //  }
+   
+//             pattern - 5
+
+//               5 4 3 2 1 
+//               5 4 3 2 1 
+//               5 4 3 2 1 
+//               5 4 3 2 1 
+//               5 4 3 2 1 
+
+
+
+// int i, j;
+
+// for(i=1; i<=5; i++)
+// {
+//     for(j=5; j>=1; j--)
+//     {
+//         cout << j << " ";
+//     }
+//     cout << endl;
+// }
 
 int i, j;
-
 for(i=1; i<=5; i++)
 {
-    for(j=5; j>=1; j--)
+    for(j=1; j<=5; j++)
     {
-        cout << j << " ";
+        cout << j*j << " ";
     }
     cout << endl;
 }
-
-
 
 }
