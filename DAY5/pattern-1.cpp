@@ -127,17 +127,63 @@ int main()
 // }
 
 
-int i, j;
-for(i=1; i<=5; i++)
+
+
+
+//                              pattern - 7
+
+//                              1 8 27 64 125 
+//                              1 8 27 64 125 
+//                              1 8 27 64 125 
+//                              1 8 27 64 125 
+//                              1 8 27 64 125 
+
+
+
+// int i, j;
+// for(i=1; i<=5; i++)
+// {
+//     for(j=1; j<=5; j++)
+//     {
+//         cout << j*j*j << " ";
+//     }
+//     cout << endl;
+// }
+
+//                    pattern -8
+
+//                    a a a a a 
+//                    b b b b b 
+//                    c c c c c 
+//                    d d d d d 
+//                    e e e e e 
+
+
+// char i, j;
+
+// for(i='a'; i<='e'; i++)
+// {
+//     for(j='a'; j<='e';j++)
+//     {
+//         cout << i << " ";
+//     }
+//     cout << endl;
+// }
+
+
+
+
+
+char i, j;
+
+for(i='a'; i<='e'; i++)
 {
-    for(j=1; j<=5; j++)
+    for(j='a'; j<='e';j++)
     {
-        cout << j*j*j << " ";
+        cout << j << " ";
     }
     cout << endl;
 }
-
-
 
 
 }
