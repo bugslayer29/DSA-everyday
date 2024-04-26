@@ -172,18 +172,39 @@ int main()
 
 
 
+//                               pattern -9
+
+//                             a b c d e 
+//                             a b c d e 
+//                             a b c d e 
+//                             a b c d e 
+//                             a b c d e 
 
 
-char i, j;
+// char i, j;
 
-for(i='a'; i<='e'; i++)
+// for(i='a'; i<='e'; i++)
+// {
+//     for(j='a'; j<='e';j++)
+//     {
+//         cout << j << " ";
+//     }
+//     cout << endl;
+// }
+
+int i, j;
+for(i= 1; i<=5; i++)
 {
-    for(j='a'; j<='e';j++)
+    for(j= i+5; j<=5; j++)
     {
         cout << j << " ";
+        
     }
     cout << endl;
 }
+
+
+
 
 
 }
