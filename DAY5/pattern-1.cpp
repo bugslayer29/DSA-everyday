@@ -192,16 +192,7 @@ int main()
 //     cout << endl;
 // }
 
-int i, j;
-for(i= 1; i<=5; i++)
-{
-    for(j= i+5; j<=5; j++)
-    {
-        cout << j << " ";
-        
-    }
-    cout << endl;
-}
+
 
 
 

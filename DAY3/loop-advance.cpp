@@ -163,14 +163,6 @@ else
 //      last = prev;
 //     prev = curr;
 
-int n, curr , prev=1, last=0, i;
-cin >> n;
-for(i=1;i<=n; i++)
-{
-    curr=prev+last;
-    last=prev;
-    prev=curr;
-}
-cout << curr;
+
 
 } 
