@@ -1,0 +1,74 @@
+#include<iostream>
+using namespace std;
+int main(){
+    // arithmatic operator
+
+
+//Add ---------
+// int num1, num2;
+// num1=5;
+// num2 = 8;
+// cout << "num1 + num2 = " << num1 + num2 << endl;
+// return 0;
+
+// subtract----------
+// int num1, num2;
+// num1=5;
+// num2 = 8;
+// cout << "num1 - num2 = " << num1 - num2 << endl;
+// return 0;
+
+
+// multiply-----------
+
+// int num1, num2;
+// num1=5;
+// num2 = 8;
+// cout << "num1 *num2 = " << num1 *num2 << endl;
+// return 0;
+
+// divide--------------
+// int num1, num2;
+// num1=5;
+// num2 = 8;
+// cout << "num1 / num2 = " << num1 / num2 << endl;
+// return 0;
+  
+
+
+        // Relational operator
+
+// "==" (equal to - equal to)--------------------------------
+
+// int a=20, b=40;
+// if(a==b)
+// {
+//     cout << "Not true";
+// }
+// else
+// {
+//     cout << "true";
+// }
+
+// output is true because a doesn't equal to b.
+
+
+
+// "!="   ( not equal to)--------------------------------
+
+int a=20, b=40;
+if(a!=b)
+{
+    cout << " true";
+}
+else
+{
+    cout << " not true";
+}
+
+// output is true because a doesn't equal to b.
+
+
+
+return 0;
+}

@@ -128,15 +128,24 @@ int main()
 //     cout << endl;
 // }
 
-int i , j;
-for(i=1; i<=5; i++)
-{
-    for(j=5; j>=5-i+1; j--)
-    {
-        cout << j;
-    }
-    cout << endl;
-}
+
+// pattern - 7
+
+// 5
+// 54
+// 543
+// 5432
+// 54321
+
+// int i , j;
+// for(i=1; i<=5; i++)
+// {
+//     for(j=5; j>=5-i+1; j--)
+//     {
+//         cout << j;
+//     }
+//     cout << endl;
+// }
 
 
 
