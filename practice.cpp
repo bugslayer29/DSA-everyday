@@ -1,27 +1,18 @@
 #include<iostream>
 using namespace std;
 int main(){
-int n;
-cout <<"Enter the value of n:\n";
-cin >> n;
 
-if(n<2)
+int sum = 0;
+int i = 1;
+do
 {
-    cout << " Not prime";
-   return 0;
-}
+   sum = sum + i;
+   i = i + 1;
+   cout << sum  << endl;
+   
+} while (i<=10);
 
-for(int i=2; i<=n; i++)
-{
-    if(n%i==0)
-    {
-        cout << "Not prime";
-    }
-    else
-    {
-        cout << "prime";
-    }
-}
+
 
 return 0;
 }
